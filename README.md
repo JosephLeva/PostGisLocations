@@ -25,3 +25,6 @@ ogr2ogr -f "PostgreSQL" PG:"host=xyz.com dbname=dbname user=username password='p
 -sql "SELECT [EntityName] as EntityName, '[Entity Type]' as EntityType FROM [LAYERNAME]" \
 [FileName]
 ```
+Data taken from 
+https://catalog.data.gov/dataset/tiger-line-shapefile-2017-nation-u-s-current-state-and-equivalent-national
+https://public-nps.opendata.arcgis.com/datasets/nps-boundary-1/explore
